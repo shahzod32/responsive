@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.li {
+    width: 300px;
+}
+
+.yuqori_div {
+    width: 300px;
+    height: 250px;
+    background-image: url('./images.jfif');
+    background-size: 300px 250px;
+    background-repeat: no-repeat;
+}
+.yuqori_div2 {
+    width: 300px;
+    height: 250px;
+    background-image: url('./images\ \(1\).jfif');
+    background-size: 300px 250px;
+    background-repeat: no-repeat;
+}
+.yuqori_div3 {
+    width: 300px;
+    height: 250px;
+    background-image: url('./images\ \(2\).jfif');
+    background-size: 300px 250px;
+    background-repeat: no-repeat;
+}
+
+.asosiy_sarlavha {
+    background-color: #46BCD0;
+    display: inline-block;
+    color: white; 
+}
+.asosiy_sarlavha2 {
+    background-color: #5D76C5;
+    display: inline-block;
+    color: white; 
+}
+.asosiy_sarlavha3 {
+    background-color: #D759A6;
+    display: inline-block;
+    color: white; 
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 425px) {
+    .container {
+        width: 100%;
+    }
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .li {
+        margin: 20px 0px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 375px) {
+    .container {
+        width: 100%;
+    }
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .li {
+        margin: 20px;
+    }
+
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    h3{
+        color: #5D76C5;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
